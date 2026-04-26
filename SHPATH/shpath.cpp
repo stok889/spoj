@@ -19,7 +19,6 @@ int patch(int v1, int v2, vector < vector < ii > > &e)
 
  s.insert( ii(0, v1) );
  d[v1] = 0;
-
  for (; !s.empty();)
      {
       ii top = *s.begin();
